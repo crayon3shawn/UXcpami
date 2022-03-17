@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <title>台灣國家公園入山入園申請系統</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+
+        .active {
+            background-color: #149c6f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>台灣國家公園入山入園申請系統</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">台灣國家公園入園申請系統</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="navbar-nav">
+                    <a class="nav-link active rounded" href="homepage.html">首頁</a>
+                    <a class="nav-link " aria-current="page" href="apply.html">入園申請</a>
+                    <a class="nav-link" href="#">申請進度</a>
+                    <a class="nav-link" href="#">營地查詢</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+                <br>
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+
+            <div class="col-sm-6">
+                <h2>查詢申請日期</h2>
+
+                <h5>選擇你想前往的國家公園</h5>
+
+                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-danger">玉山國家公園</button>
+                    <button type="button" class="btn btn-warning">雪霸國家公園</button>
+                    <button type="button" class="btn btn-success">太魯閣國家公園</button>
+                </div>
+                <p> </p>
+                <h5>選擇您的入園日期</h5>
+                <input type="text" class="form-control" placeholder="2022 / 04 /30" name="ID">
+                <p></p>
+                <form action="/action_page.php" class="needs-validation" novalidate>
+                    <button type="submit" class="btn btn-primary" href=" apply-2.html">查詢申請日期</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <p>Footer</p>
+    </div>
+
+</body>
+
+</html>
